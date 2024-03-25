@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 10px solid red;
+    width: 20%;
+    text-align: center;
+}
+
+.instruction {
+    font-size: 60%;
+    text-align: left;
+}
+
+/* circle CSS from following site: https://www.w3schools.com/howto/howto_css_circles.asp */
+
+.circle {
+    margin-right: 10px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 220%;
+    border: 5px solid red;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.circle:hover {
+    color: white;
+    background-color: red;
+}
