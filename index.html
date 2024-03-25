@@ -9,8 +9,19 @@
 
 <body>
   <h1>Rock, Paper or Scissors?</h1>
-  <p> R P S </p>
-  <a href="#">RULES</a>
+  <p>
+    <span class="circle" onclick="play()">R</span>
+    <span class="circle" onclick="play()">P</span>
+    <span class="circle" onclick="play()">S</span>
+  </p>
+  <a class="instruction" href="https://wrpsa.com/the-official-rules-of-rock-paper-scissors/">RULES</a>
+
+  <script>
+    function play() {
+      alert("Either Rock or Paper or Scissirs was clicked");
+    }
+  </script>
+
 </body>
 
 </html>
